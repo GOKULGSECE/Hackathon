@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    padding: auto;
+    
+    
+}
+
+.signin-container {
+    /* position: relative; */
+    /* display: block; */
+    height: 450px;
+    width: 450px;
+    border: 2px solid rgba(35, 115, 43, 0.584);
+    padding: 30px;
+    margin: 10px auto; 
+    text-align: center;
+    box-shadow: 7px 5px 7px 5px rgba(53, 52, 52, 0.405);
+    border-radius: 20px;
+    background-color: hsla(224, 11%, 46%, 0.244);
+}
+
+.signin-container .Header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    color: hsl(12, 93%, 18%);
+}
+
+.signin-container .username, .name, .email, .password{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 3px gray;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* text-align: center; */
+    
+}
+
+.signin-container .signin-button{
+    display: block;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    width: 80px;
+    background-color: rgb(37, 184, 74);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 3px gray;
+    margin-top: 10px;
+    left: 47%;
+    font:bold;
+    
+    
+}
+.signin-container .signin-button:hover{
+    cursor: pointer;   
+    transform: scale(1.1);
+    transition:1s;
+}
+
+
+.tologin{
+    /* size: 20px; */
+    position: relative;
+    font-size: 13px;
+    margin-bottom:10px ;
+    left: 80%;
+    top: 55px;
+    display: flex;
+    font-size: medium;
+}

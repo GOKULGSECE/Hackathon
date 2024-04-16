@@ -1,0 +1,30 @@
+/* .card{
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 1%, 37%, 0.195);
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  max-width: 30%;
+  display: inline-block;
+
+}
+.card .card-image{
+  max-width: 40%;
+  border: none;
+  border-radius: 70%;
+  height: none;
+}
+
+.card .card-title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  font-size: medium;
+}
+
+.card .card-para{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  font-style: oblique;
+  color: hsla(0, 10%, 11%, 0.808);
+} */
